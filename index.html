@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;300;400;500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+</head>
+<body>
+
+
+
+<section class="top">  
+  <header>
+    <div class="header">
+      <div class="header__logo">
+        <a href="#"><img src="img/logo.svg" alt=""></a>
+      </div> 
+      <div class="header__burger">
+        <span></span>
+      </div> 
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">Home</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link _about" href="#about">About me</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link _skills" href="#skills">Skills</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link _works" href="#works">Works</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link _contact" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="wrapper">
+    <h1 class="top__title wow animate__animated animate__fadeIn" data-wow-delay="0.3s">I'm <span class="wow animate__animated animate__fadeIn" data-wow-delay=".5s">FrontEnd Developer</span></h1>
+  </div>
+  <div class="top__arrows">
+    <a href="#about" class="animate__animated animate__fadeInDown animate__infinite animate__slow">
+      <img src="img/arrows-dawn.svg" alt="">
+    </a>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrapper">
+    <div class="about__box">
+      <div class="about__box-item">
+        <img class="about__box-back wow animate__animated animate__fadeIn" data-wow-offset="100" data-wow-delay="0.4s" src="img/work.png" alt="WorkPlace">
+        <p class="about__box-vertical">Work <span>Place</span> </p>
+        <img class="about__box-front wow animate__animated animate__fadeIn" data-wow-offset="100" data-wow-delay="0.7s" src="img/me.jpg" alt="">
+      </div>
+      <div class="about__box-item">
+        <h2 class="about__title wow animate__animated animate__fadeInLeft" data-wow-offset="100">
+          <span class="title-color">About</span>  Me
+        </h2>
+        <p class="about__box-text wow animate__animated animate__fadeInRight" data-wow-offset="100">
+          Hello World! Меня зовут Тариэл. Я ФронтЭнд Разработчик. Я трудолюбив, люблю обучаться чему-то новому и ответственно подхожу к поставленной задаче. На данный момент времени, я знаю HTML5, CSS3 и JavaScript ES6+. Я не собираюсь останавливаться на достигнутом, ведь есть еще куда расти. На данный момент интенсивно изучаю VueJS, Vue Router, VueX, Nuxt.js параллельно улучшая навыки в JS.
+        </p>
+        <div class="about__box-progressbar">
+          <div class="box-progressbar">
+            <div class="box-progressbar__items">
+              <div class="box-progressbar__item">
+                <div class="box-progressbar__line">
+                  <div class="box-progressbar__per" per="100">
+                    <span class="box-progressbar__value"></span>
+                  </div>
+                </div>
+                <div class="box-progressbar__name">HTML5</div>
+              </div>
+              <div class="box-progressbar__item">
+                <div class="box-progressbar__line">
+                  <div class="box-progressbar__per" per="90">
+                    <span class="box-progressbar__value"></span>
+                  </div>
+                </div>
+                <div class="box-progressbar__name">CSS3</div>
+             </div>
+              <div class="box-progressbar__item">
+                <div class="box-progressbar__line">
+                  <div class="box-progressbar__per" per="80">
+                    <span class="box-progressbar__value"></span>
+                  </div>
+                </div>
+                <div class="box-progressbar__name">JS-ES6+</div>
+              </div>
+            </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <div class="wrapper">
+    <h2 class="skills__title wow text-center animate__animated animate__fadeInUp" data-wow-offset="70">
+      My <span class="title-color">Skills</span> 
+    </h2>
+    <p class="skills__text text-center wow animate__animated animate__fadeInUp" data-wow-offset="70">
+      И еще немного того, что я умею на данный момент
+    </p>
+    <div class="skills__items">
+      <div class="skills__item wow animate__animated animate__fadeInUp" data-wow-offset="100">
+        <div class="skills__item-icon skills__item-icon--1"></div>
+        <h3 class="skills__item-title">JQUERY</h3>
+        <div class="skills__item-text">
+          Свободно пишу коды с помощью это библиотеки JS. В основном использую для сокрашения код. Но предпочитаю больше чистый JS \ VanilaJS. 
+        </div>
+        <a class="skills__item-link" href="https://code.tutsplus.com/ru/tutorials/what-is-jquery--cms-26232"><span class="link-text">Read More</span><span class="link-line"></span></a>
+      </div>
+      <div class="skills__item wow animate__animated animate__fadeInUp" data-wow-offset="100">
+        <div class="skills__item-icon skills__item-icon--2"></div>
+        <h3 class="skills__item-title">SCSS | SASS + BEM</h3>
+        <div class="skills__item-text">
+          Прекрасный инструмент, которым пользовался пока верстал все макеты ниже. Использую весь спектр возможностей SCSS: mixins, переменные, вложенность, модульность, наследование, форматирование итд. Идеально с методологией BEM.
+        </div>
+        <a class="skills__item-link" href="https://habr.com/ru/post/140612/"><span class="link-text">Read More</span><span class="link-line"></span></a>
+      </div>
+      <div class="skills__item wow animate__animated animate__fadeInUp" data-wow-offset="100">
+        <div class="skills__item-icon skills__item-icon--3"></div>
+        <h3 class="skills__item-title">GIT | GITHUB</h3>
+        <div class="skills__item-text">
+          Git очень полезный инструмент, особенно для командной разработки. Я же в основном использовал его, чтобы не потерять свои работы или сделать backup, если в этом была необходимость. Использую совместно с GiHub.
+        </div>
+        <a class="skills__item-link" href="https://gist.github.com/rdnvndr/cb21a06c5a71fd71213aed1619380b8e"><span class="link-text">Read More</span><span class="link-line"></span></a>
+      </div>
+      <div class="skills__item wow animate__animated animate__fadeInUp" data-wow-offset="100">
+        <div class="skills__item-icon skills__item-icon--4"></div>
+        <h3 class="skills__item-title">Webpack</h3>
+        <div class="skills__item-text">
+          Webpack мощнейший инструмент и друг FrontEnd разработчика. Умею простенько настроить и использовать в проекте. Хоть и при изучении Vue, благодаря Vue CLI, сильно копаться в config файле не требовалось.
+        </div>
+        <a class="skills__item-link" href="https://webpack.js.org/"><span class="link-text">Read More</span><span class="link-line"></span></a>
+      </div>
+      <div class="skills__item wow animate__animated animate__fadeInUp" data-wow-offset="100">
+        <div class="skills__item-icon skills__item-icon--5"></div>
+        <h3 class="skills__item-title">NPM | GULP</h3>
+        <div class="skills__item-text">
+          Я останавился именно на GULP, потомучто он легок для чтения и понимания. Привлек некой простотой, например, каждый TASK отвечает за что-то свое, каждый TASK можно отдельно протестировать итд. 
+        </div>
+        <a class="skills__item-link" href="https://www.npmjs.com/package/gulp"><span class="link-text">Read More</span><span class="link-line"></span></a>
+      </div>
+      <div class="skills__item wow animate__animated animate__fadeInUp" data-wow-offset="100">
+        <div class="skills__item-icon skills__item-icon--6"></div>
+        <h3 class="skills__item-title">VueJS</h3>
+        <div class="skills__item-text">
+          Vue явлеятсе относительным новичком в мире фрейворков, но явлется очень мощным иструментом для разработки приложений. Выбрал сие чудо т.к. понравились синтксис, возможности и потомучто он довольно легок в усвоении (пробовал изучать React, не понравилось грамосткость кода)
+        </div>
+        <a class="skills__item-link" href="https://ru.vuejs.org/v2/guide/syntax.html"><span class="link-text">Read More</span><span class="link-line"></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="works" id="works">
+  <div class="wrapper works-wrapper">
+    <h2 class="works__title text-center wow text-center animate__animated animate__fadeInUp" data-wow-offset="70">
+      My <span class="title-color">Works</span>
+    </h2>
+    <p class="works__text text-center wow text-center animate__animated animate__fadeInUp" data-wow-offset="70">
+      Все, что я успел сделать от простого к более сложному
+    </p>
+    <div class="works-slider">
+      <div class="works-box">
+        <div class="works-box__wrapper wow animate__animated animate__fadeInUp" data-wow-offset="100" 
+          style="background-image: url(img/slide-1.jpg);">
+          <div class="works-box__inner">
+            <div class="works-box__inner-btn">
+              <a class="btn" href="https://tery22.github.io/foodShop/">
+                View<span class="btn-right animate__animated animate__fadeInRight">work</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="works-box">
+        <div class="works-box__wrapper wow animate__animated animate__fadeInUp" data-wow-offset="100" 
+          style="background-image: url(img/slide-2.png);">
+          <div class="works-box__inner">
+            <div class="works-box__inner-btn">
+              <a class="btn" href="https://tery22.github.io/cappadocia/">
+                View<span class="btn-right animate__animated animate__fadeInRight">work</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="works-box">
+        <div class="works-box__wrapper wow animate__animated animate__fadeInUp" data-wow-offset="100" 
+          style="background-image: url(img/slide-3.png);">
+          <div class="works-box__inner">
+            <div class="works-box__inner-btn">
+              <a class="btn" href="https://tery22.github.io/productly/">
+                View<span class="btn-right animate__animated animate__fadeInRight">work</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="works-box">
+        <div class="works-box__wrapper wow animate__animated animate__fadeInUp" data-wow-offset="100" 
+          style="background-image: url(img/slide-4.jpg);">
+          <div class="works-box__inner">
+            <div class="works-box__inner-btn">
+              <a class="btn" href="https://tery22.github.io/gosurf/">
+                View<span class="btn-right animate__animated animate__fadeInRight">work</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-dotshead animate__animated animate__fadeInUp animate__delay-2s">
+      <div class="slider-dots__item">
+        <div class="dots-box">
+          <div class="dots-box__number">01</div>
+          <div class="dots-box__name">Food Shop</div>
+        </div>
+      </div>
+      <div class="slider-dots__item">
+        <div class="dots-box">
+          <div class="dots-box__number">02</div>
+          <div class="dots-box__name">Cappadocia</div>
+        </div>
+      </div>
+      <div class="slider-dots__item">
+        <div class="dots-box">
+          <div class="dots-box__number">03</div>
+          <div class="dots-box__name">Productly</div>
+        </div>
+      </div>
+      <div class="slider-dots__item">
+        <div class="dots-box">
+          <div class="dots-box__number">04</div>
+          <div class="dots-box__name">Go Surf</div>
+        </div>
+      </div>
+  </div>
+  </div>
+</section>
+
+<section class="banner">
+  <div class="wrapper">
+    <h2 class="banner__title wow text-center animate__animated animate__fadeInUp" data-wow-offset="70">Я вам <span>пригнялуся?</span> </h2>
+    <p class="banner__text text-center">Тогда Вы можете позвонить или написать мне. <span>В любое время.</span></p>
+    <div class="banner__btn">
+      <a class="btn" href="#footer">
+        Уже<span class="btn-right wow animate__animated animate__fadeInRight" data-wow-offset="50">звоню</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section-form" id="contact">
+  <div class="wrapper">
+    <div class="section-form__title text-center wow text-center animate__animated animate__fadeInUp" data-wow-offset="70"><span>Написать</span> мне</div>
+    <p class="section-form__text text-center">Остались какие-либо вопросы? Напишите мне на почту.</p>
+    <form action="#" class="form">
+      <input class="form__input _req" name="name" type="text" placeholder="Ваше Имя">
+      <input class="form__input _req _email" name="email" type="text" placeholder="Ваш email ">
+      <textarea class="form__textarea _req" name="messege" placeholder="Ваше сообщение..."></textarea>
+        <button type="submit" class="btn"><span class="btn-right wow animate__animated animate__fadeInLeft" data-wow-offset="50">Отправить</span></button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrapper">
+    <div class="footer" id="footer">
+      <span>&copy;2021 Yusupzhanov T.A.</span>
+      <div class="number">
+        <a class="phone" href="tel:89999717315"><i class="zmdi zmdi-phone-in-talk"></i> 8(999)971-73-15</a>
+      </div>
+      <ul class="social-network">
+        <li class="social-network__item">
+          <a class="social-network__link" href="https://vk.com/uta_279" target="_blank" >
+            <i class="zmdi zmdi-vk"></i>
+          </a>
+        </li>
+        <li class="social-network__item">
+          <a class="social-network__link" href="https://github.com/TERY22" target="_blank" >
+            <i class="zmdi zmdi-github-alt"></i>
+          </a>
+        </li>
+        <li class="social-network__item">
+          <a class="social-network__link" href="https://twitter.com/FirE_TerY" target="_blank" >
+            <i class="zmdi zmdi-twitter"></i>
+          </a>
+        </li>
+        <li class="social-network__item">
+          <a class="social-network__link" href="mailto:fire_jacky@mail.ru" target="_blank" >
+            <i class="zmdi zmdi-email"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
